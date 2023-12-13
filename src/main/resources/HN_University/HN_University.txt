@@ -1,0 +1,59 @@
+ACT - Academy of Cryptography Techniques
+AJC - Academy of Journalism and Communication
+AOF - Academy of Finance
+BA - Banking Academy
+DAV - Diplomatic Academy of Vietnam
+DNU - Dai Nam University
+EPU - Electric Power University
+FBU - Financial & Banking University
+FPT - FPT University
+FTU - Foreign Trade University
+HANU - Hanoi University
+HAU - Hanoi Architectural University
+HAUI - Hanoi University of Industry
+HLU - Hanoi Law University
+HMU - Medical University
+HNUE - Hanoi National University of Education
+HOU - Hanoi Open University
+HPU - Hanoi Procuratorate University
+HUBT - Hanoi University of Business and Technology
+HUC - Hanoi University of Culture
+HUHA - University of Home Affairs
+HUMG - Hanoi University of Mining & Geology
+HUP - Hanoi University of Pharmacy
+HUPH - Hanoi University of Public Health
+HUST - Hanoi University of Science & Technology
+LCDF - London College of Design & Fashion
+MAL - Military Academy of Logistics
+MSA - Military Science Academy
+NEU - National Economics University
+NUCE - National University of Civil Engineering
+NUCE - National University of Civil Engineering
+PDU - Phuong Dong University
+PSA/ T47 - People’s Security Academy
+PTIT - Posts and Telecommunications Institute of Technology
+RMIT - The Royal Melbourne Institute of Technology
+SKDA - Hanoi Academy of Theatre and Cinema
+Tên tiếng Anh
+TLU - Thang Long University
+UAF - University of Agriculture & Forestry
+UET - University of Engineering and Technology
+UFFP - University of Fire Fighting and Prevention
+UIFA - University of Industrial Fine Art
+ULIS - University of Languages & International Studies
+ULSA - University of Laboratory & Social Affairs
+UNRE - University of Natural Resources and Environment
+UTC - Hanoi University of Transport & Communications
+VCA - Vietnam Court Academy
+Vietnam Trade Union University
+VIMARU/VMU - Vietnam Maritime University
+VJU - Vietnam Japan University
+VNAM - Vietnam National Academy of Music
+VNU - UED - University of Education
+VNU - US - University of Science
+VNU - USSH - University of Social Science & Humanities
+VNU - Vietnam National University
+VNUA - Vietnam National University of Agriculture
+VNUF - Vietnam National Forestry University
+VUC - Vietnam University of Commerce
+VYA - Vietnam Youth Academy

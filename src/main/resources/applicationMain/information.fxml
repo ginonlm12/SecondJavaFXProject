@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.effect.InnerShadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.*?>
+<AnchorPane xmlns:fx="http://javafx.com/fxml/1" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity"
+            prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21"
+            fx:controller="Controllers.InformationController">
+   <children>
+       <Button fx:id="inforBTLO" layoutX="497.0" layoutY="6.0" mnemonicParsing="false" onAction="#inforBackToLogOut"
+               text="Home" textAlignment="RIGHT">
+           <font>
+               <Font size="10.0"/>
+           </font>
+       </Button>
+       <Button fx:id="inforBTLI" layoutX="543.0" layoutY="6.0" mnemonicParsing="false" onAction="#inforBackToLogIn"
+               text="Sign out" textAlignment="RIGHT">
+           <font>
+               <Font size="10.0"/>
+           </font>
+       </Button>
+       <Label layoutX="41.0" layoutY="64.0" text="Name: "/>
+       <Text layoutX="88.0" layoutY="77.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="441.47003173828125"/>
+       <Label layoutX="41.0" layoutY="107.0" text="Username: "/>
+       <Label layoutX="41.0" layoutY="150.0" text="Email:"/>
+       <TextField fx:id="inforName" layoutX="109.0" layoutY="60.0" onAction="#showInfor" prefHeight="25.0"
+                  prefWidth="456.0"/>
+       <TextField fx:id="inforUsername" layoutX="109.0" layoutY="103.0" onAction="#showInfor" prefHeight="25.0"
+                  prefWidth="456.0"/>
+       <TextField fx:id="inforEmail" layoutX="109.0" layoutY="146.0" onAction="#showInfor" prefHeight="25.0"
+                  prefWidth="456.0"/>
+       <Text fx:id="inforDebug" layoutX="79.0" layoutY="46.0" strokeType="OUTSIDE" strokeWidth="0.0"
+             text="My information">
+         <font>
+             <Font name="System Bold Italic" size="24.0"/>
+         </font>
+      </Text>
+       <Label fx:id="wrongSave" layoutX="36.0" layoutY="171.0" prefHeight="32.0" prefWidth="545.0"
+              text="Other information" textAlignment="CENTER" wrapText="true">
+         <font>
+             <Font name="System Bold Italic" size="12.0"/>
+         </font>
+      </Label>
+       <Label layoutX="470.0" layoutY="295.0" text="CPA:"/>
+       <TextField fx:id="inforCPA" layoutX="503.0" layoutY="290.0" onAction="#showInfor" prefHeight="25.0"
+                  prefWidth="61.0"/>
+       <Label layoutX="43.0" layoutY="259.0" text="Province:"/>
+       <TextField fx:id="inforProvince" layoutX="109.0" layoutY="255.0" onAction="#showInfor" prefHeight="25.0"
+                  prefWidth="456.0"/>
+       <Button fx:id="inforSavebutton" cache="true" layoutX="263.0" layoutY="356.0" mnemonicParsing="false"
+               onAction="#inforSave" prefHeight="29.0" prefWidth="92.0" text="Save" textOverrun="CENTER_ELLIPSIS">
+         <font>
+             <Font name="System Bold" size="14.0"/>
+         </font>
+         <effect>
+             <InnerShadow height="0.0" radius="1.4475" width="7.79"/>
+         </effect>
+           <cursor>
+               <Cursor fx:constant="DISAPPEAR"/>
+           </cursor>
+      </Button>
+       <Label fx:id="inforNote" layoutX="36.0" layoutY="189.0" prefHeight="35.0" prefWidth="529.0"
+              text="Full completion of this form is compulsory for the first login. Once the form has been completed, you will not be able to make any changes to the information you have provided."
+              wrapText="true">
+         <font>
+             <Font size="8.0"/>
+         </font>
+      </Label>
+       <Label layoutX="44.0" layoutY="226.0" text="Gender:"/>
+       <ChoiceBox fx:id="inforGender" layoutX="110.0" layoutY="220.0" prefHeight="25.0" prefWidth="187.0">
+           <opaqueInsets>
+               <Insets/>
+           </opaqueInsets>
+       </ChoiceBox>
+       <Label layoutX="303.0" layoutY="224.0" text="Date of birth:"/>
+       <DatePicker fx:id="inforDOB" layoutX="376.0" layoutY="220.0" nodeOrientation="LEFT_TO_RIGHT" prefHeight="25.0"
+                   prefWidth="187.0" promptText="MM/DD/YYYY"/>
+       <ChoiceBox fx:id="inforUniversity" layoutX="110.0" layoutY="290.0" prefHeight="25.0" prefWidth="355.0"/>
+       <Label layoutX="43.0" layoutY="295.0" text="University:"/>
+   </children>
+</AnchorPane>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<BorderPane xmlns:fx="http://javafx.com/fxml/1" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity"
+            prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21"
+            fx:controller="Controllers.LogInController">
+   <left>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" />
+             <ImageView fitHeight="310.0" fitWidth="281.0" layoutY="45.0">
+               <image>
+                   <Image url="@../Conan.png"/>
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </left>
+    <right>
+      <AnchorPane prefHeight="400.0" prefWidth="343.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label layoutX="20.0" layoutY="128.0" text="Username" textFill="#ff5e5e">
+               <font>
+                  <Font name="ACaslonPro-Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="20.0" layoutY="158.0" text="Password" textFill="#ff5e5e">
+               <font>
+                  <Font name="ACaslonPro-Bold" size="15.0" />
+               </font>
+            </Label>
+             <TextField fx:id="username" layoutX="88.0" layoutY="125.0" prefHeight="25.0" prefWidth="219.0"
+                        promptText="Username" text="DinhMinh"/>
+             <PasswordField fx:id="password" layoutX="88.0" layoutY="155.0" prefHeight="25.0" prefWidth="219.0"
+                            promptText="Password" text="minhdm120"/>
+             <Label fx:id="wrongLogin" alignment="TOP_CENTER" contentDisplay="CENTER" layoutX="20.0" layoutY="100.0"
+                    text="Enter your username and password" textAlignment="CENTER" textFill="RED">
+               <font>
+                  <Font name="AGaramondPro-Bold" size="15.0" />
+               </font></Label>
+             <Button fx:id="button11" layoutX="233.0" layoutY="250.0" mnemonicParsing="false"
+                     onAction="#userForgetPassword" text="Forget password?">
+                 <font>
+                     <Font size="8.0"/>
+                 </font>
+             </Button>
+             <Button fx:id="button" layoutX="19.0" layoutY="222.0" mnemonicParsing="false" onAction="#userLogin"
+                     prefHeight="25.0" prefWidth="288.0" text="Click to Log In"/>
+             <Label layoutX="20.0" layoutY="248.0" prefHeight="21.0" prefWidth="127.0"
+                    text="Don't have an account yet?">
+                 <font>
+                     <Font size="10.0"/>
+                 </font>
+             </Label>
+             <Button fx:id="button1" layoutX="145.0" layoutY="250.0" mnemonicParsing="false" onAction="#userSignUp"
+                     prefHeight="17.0" prefWidth="85.0" text="Register">
+                 <font>
+                     <Font size="8.0"/>
+                 </font>
+             </Button>
+         </children>
+      </AnchorPane>
+    </right>
+</BorderPane>

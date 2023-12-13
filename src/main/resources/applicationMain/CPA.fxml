@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.Blend?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.*?>
+<AnchorPane xmlns:fx="http://javafx.com/fxml/1" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21"
+            fx:controller="Controllers.CPAController">
+    <children>
+        <TableView fx:id="CPAtable" editable="true" layoutX="21.0" layoutY="47.0" onMouseClicked="#getSelected"
+                   prefHeight="300.0" prefWidth="553.0">
+            <columns>
+                <TableColumn fx:id="CPAname" prefWidth="223.33328247070312" sortable="false" text="Name"/>
+                <TableColumn fx:id="CPAshow" minWidth="2.0" prefWidth="46.66668701171875" text="CPA"/>
+                <TableColumn fx:id="CPADOB" prefWidth="128.66668701171875" text="DOB"/>
+                <TableColumn fx:id="CPAprovince" prefWidth="152.00002034505212" text="Province"/>
+            </columns>
+        </TableView>
+        <Button layoutX="493.0" layoutY="2.0" mnemonicParsing="false" onAction="#CPAbacktoHome" prefHeight="22.0"
+                prefWidth="44.0" text="Home">
+            <effect>
+                <Blend/>
+            </effect>
+            <font>
+                <Font size="10.0"/>
+            </font>
+        </Button>
+        <Button layoutX="541.0" layoutY="2.0" mnemonicParsing="false" onAction="#CPAsignout" prefHeight="22.0"
+                prefWidth="55.0" text="Sign out">
+            <effect>
+                <Blend/>
+            </effect>
+            <font>
+                <Font size="10.0"/>
+            </font>
+        </Button>
+        <Text fx:id="CPAtext" layoutX="39.0" layoutY="37.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text"
+              visible="false">
+            <font>
+                <Font name="System Bold Italic" size="12.0"/>
+            </font>
+        </Text>
+        <ChoiceBox fx:id="CPAuniversityselect" layoutX="91.0" layoutY="20.0" prefHeight="25.0" prefWidth="343.0"/>
+        <Label fx:id="CPAuniversity" layoutX="21.0" layoutY="24.0" text="University:">
+            <font>
+                <Font name="System Bold" size="12.0"/>
+            </font>
+        </Label>
+    </children>
+</AnchorPane>
