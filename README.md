@@ -1,5 +1,7 @@
 # SecondJavaFXProject
 Incomplete project
+
+This project is being carried out using IntelliJ IDEA and Scene Builder to prepare for the 'Introduction to Software Engineering' project at HUST.
 # Steps to run the application
   1. Download the database file from the database folder, create a database and import the database in MySQL using XAMPP.
   2. Edit the hostName, dbName, userName, password fields in the Services.MysqlConnection class to match your MySQL credentials on your computer.
